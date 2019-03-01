@@ -38,14 +38,52 @@ static int day = 0;
 
 
 void f_tamagotchi(){
+auto gbye = [](){
+    int count = -1;
 
-cout<<"(1)info"<<endl;
+    while (1) {
+        cout<<"(1)info"<<endl;
+        cout<<tamagotchi.live<<endl;
+        cout<<tamagotchi.hunger<<endl;
+        cout<<tamagotchi.intelligence<<endl;
+        cout<<tamagotchi.strength<<endl;
+        cout<<tamagotchi.agility<<endl;
+        cout<<tamagotchi.fatigue<<endl;    auto gbye = [](){
+            int count = -1;
+         switch (count) {
+
+        case 1:
+            return;
+           }
+        };
+    }
+};
+
+int count = -1;
 
 
+while (1) {
+    cout<<"(1)bye"<<endl;
+    cout<<"(2)exit"<<endl;
+    cout<<"Select action: ";cin>>count;
+    switch (count) {
+    case 1:
+        gbye();
+        break;
+    case 2:return;
 
+    }
+
+}
 
 
 }
+
+
+
+
+
+
 
 
 
